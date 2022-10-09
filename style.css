@@ -1,0 +1,82 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(62, 60, 66);
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: rgb(231, 78, 224);
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    display: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 {
+    width: 28%;
+    border: dashed;
+    border-color: white;
+    color: rgb(231, 78, 224);
+    padding: 12px;
+    margin: 15px;
+}
+
+.title1 {
+    border: solid;
+    border-color: white;
+    border-radius: 3%;
+    transition: all 0.5s ease-in-out;
+    width: 90%;
+    margin: 0;
+    position: relative;
+    bottom: 26px;
+    left: 14.5px;
+    padding-left: 5px;
+    font-size: 1.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.descr1 {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: .9rem;
+}
+
+.code1 {
+    color: white;
+    font-family: monospace;
+    border: solid;
+    border-radius: 3%;
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%);
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.code1:hover {
+    box-shadow: inset 0px 0px 8px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+h8 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(231, 78, 224);
+}
+

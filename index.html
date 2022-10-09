@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://kit.fontawesome.com/992b8b8f31.js" crossorigin="anonymous"></script>
+    <title>CSS Snippet Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p><pre>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select 
+            any snippet below and it'll automatically select all of the code for you to copy.</pre>
+        </p>
+    </header>
+
+    <main>
+        <section class="card1">
+        <h2 class="title1">Flexbox Row</h2>
+        <p class="descr1">Use these three properties to create a Flexbox row layout</p>
+        <pre><p class="code1">
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+        </p></pre></section>
+        <section class="card1">
+        <h3 class="title1">Flexbox Column</h3>
+        <p class="descr1">Use this to create a Flexbox column layout</p>
+        <pre><p class="code1">
+.column {
+    display: flex;
+    flex-direction: column;
+}
+        </p></pre></section>
+        <section class="card1">
+        <h4 class="title1">CSS Grid Layout</h4>
+        <p class="descr1">Build a 12-column layout using CSS Grid</p>
+        <pre><p class="code1">
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns:
+repeat(12, 1fr);
+}
+        </p></pre></section>
+        <section class="card1">
+        <h5 class="title1">Linear Gradients</h5>
+        <p class="descr1">This will create a background linear gradient from top to bottom</p>
+        <pre><p class="code1">
+.linear-gradient-background {
+background-image: linear-
+gradient (
+rgba(232, 102, 236, 0.3) 0%,
+rgba(232, 102, 236, 0.6) 100%
+);
+}
+        </p></pre></section>
+        <section class="card1">
+        <h6 class="title1">Box Transition Glow</h6>
+        <p class="descr1">Use transition and box shadows to glow on hover</p>
+        <pre><p class="code1">
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all to 0.5s ease-in
+out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px ppx 8px
+rgba(232, 102, 236, 1), 0 0 15px
+rgba(232, 102, 236, 1):
+}
+        </p></pre></section>
+        <section class="card1">
+        <h7 class="title1">Overlay Card with Title</h7>
+        <p class="descr1">Use position properties and negatuve margins to raise elements
+            higher than their natural starting point.</p>
+        <pre><p class="code1">
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+        </p></pre></section>
+
+
+    </main>
+
+
+    <footer>
+        <h8><i class="fa-solid fa-heart fa-bounce"></i> Marie Lewis 2022</h8>
+    </footer>
+</body>
